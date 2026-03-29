@@ -5,7 +5,7 @@
 
 using namespace std;
     // prim's algorithm is to connect all the nodes of the graph with minimum edges (MST);
-
+    // Kruskal's algo is greedy approach using Disjoint set data structure
 class Graph {
     int V;
     list<pair<int,int>>* l;
